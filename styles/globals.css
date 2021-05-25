@@ -14,3 +14,25 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.human-body {
+  margin: 20px;
+
+  margin-top: 1rem;
+  width: 20rem;
+}
+
+.human-bdy svg {
+  width: 30px;
+  height: 30px;
+  background-color: red;
+}
+.human-body svg * {
+  width: 100%;
+  height: 100%;
+  fill: blue;
+}
+
+path:hover {
+  fill: red;
+}
